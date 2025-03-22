@@ -82,7 +82,7 @@ function handlechatResponse(userMessage){
     setTimeout(()=>{
         let html=`<img src="ai.jpeg" alt="" id="aiImage" width="10%">
     <div class="ai-chat-area">
-    <img src="loading4.jpeg" alt="" class="load" width="50px">
+    <img src="loading3.jpeg" alt="" class="load" width="50px">
     </div>`
     let aiChatBox=createChatBox(html,"ai-chat-box")
     chatContainer.appendChild(aiChatBox)
